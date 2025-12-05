@@ -233,3 +233,47 @@ body {
 .titulo-centrado {
   text-align: center;
 }
+
+
+
+
+
+
+.titulo-centrado {
+  text-align: center;
+  color:#f9f5f5;
+  font-size: 20px;
+  margin-top:30px;
+}
+
+.titulo-naranja {
+  color: #FFA500;
+}
+
+p {
+    color:orangered;
+    font-weight: bold;
+}
+
+.mi-div-negro {
+    background-color: black;
+    color: white; 
+  }
+
+  .card-img-overlay{
+     border: none !important;
+}
+
+.card {
+  background-color: black;
+  border: 2px solid rgb(172, 157, 157)
+}
+
+.card-footer-flex {
+  margin-top: auto;
+  padding: 20px;
+}
+
+.card-img-overlay{
+     border: none !important;
+}
