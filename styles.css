@@ -1,3 +1,22 @@
 .titulo-centrado {
   text-align: center;
 }
+
+.titulo-naranja {
+  color: #FFA500;
+}
+
+p {
+    color:orangered;
+    font-weight: bold;
+}
+
+.mi-div-negro {
+    background-color: black;
+    color: white; 
+  }
+
+.card {
+  background-color: black;
+  border: 2px solid rgb(172, 157, 157)
+}
