@@ -230,3 +230,6 @@ body {
   color: #ffffff;
   background-color: #1ebe57;
 }
+.titulo-centrado {
+  text-align: center;
+}
