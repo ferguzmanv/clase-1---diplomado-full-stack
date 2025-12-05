@@ -20,3 +20,9 @@ p {
   background-color: black;
   border: 2px solid rgb(172, 157, 157)
 }
+
+.card-footer-flex {
+  margin-top: auto;
+  padding: 20px;
+}
+
