@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-  font-weight: 800;              
+  font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -17,23 +17,23 @@ body {
   right: 0;
   height: 4px;
   top: -12px;
-  background-color: #fc840c;     
-  transform: scaleX(0);         
-  transform-origin: left;      
+  background-color: #fc840c;
+  transform: scaleX(0);
+  transform-origin: left;
   transition: transform 0.25s ease;
 }
 
 .navbar-nav .nav-link:hover::before,
 .navbar-nav .nav-link.active::before {
-  transform: scaleX(1);         
+  transform: scaleX(1);
 }
 
 .search-pill {
-  max-width: 820px;              
+  max-width: 820px;
   padding: 0.35rem 1.25rem;
-  border: 2px solid #000;       
-  border-radius: 999px;          
-  background-color: #f9f5f5;     
+  border: 2px solid #000;
+  border-radius: 999px;
+  background-color: #f9f5f5;
 }
 
 .search-pill-input {
@@ -55,30 +55,29 @@ body {
 }
 
 .carrusel-height {
-  max-height: 100px;              
-  overflow: hidden;             
+  max-height: 100px;
+  overflow: hidden;
 }
 
 .carrusel-height .carousel-item {
-  height: 450px;                  
+  height: 450px;
 }
 
 .carrusel-height .carousel-item img {
-  
   height: 100%;
-  object-fit: cover;              
+  object-fit: cover;
 }
 
 .carousel-fullscreen,
 .carousel-fullscreen .carousel-inner,
 .carousel-fullscreen .carousel-item {
-  height: 60vh;   
+  height: 60vh;
 }
 
 .carousel-fullscreen .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .productos-dropdown {
@@ -95,7 +94,7 @@ body {
 .productos-dropdown {
   padding: 1.5rem 2rem;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .productos-dropdown .dropdown-item {
@@ -112,17 +111,17 @@ body {
 }
 
 .footer-card .card {
-  height: 300px;          
-  overflow: hidden;       
+  height: 300px;
+  overflow: hidden;
 }
 
 .footer-card .card-img {
   height: 100%;
-  object-fit: cover;    
+  object-fit: cover;
 }
 
 .overlay-plomo {
-  background-color: rgba(13, 13, 13, 0.9); 
+  background-color: rgba(13, 13, 13, 0.9);
 }
 
 .footer-list li {
@@ -142,7 +141,7 @@ body {
 }
 
 .footer-main {
-  background-color: #111;   
+  background-color: #111;
   color: #fff;
   position: relative;
 }
@@ -208,7 +207,6 @@ body {
   background-color: #c5641a;
 }
 
-
 .btn-whatsapp {
   position: fixed;
   right: 1.5rem;
@@ -230,6 +228,50 @@ body {
   color: #ffffff;
   background-color: #1ebe57;
 }
+
 .titulo-centrado {
   text-align: center;
+  color: #f9f5f5;
+  font-size: 20px;
+  margin-top: 30px;
 }
+
+.titulo-naranja {
+  color: #e89518;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+p {
+  color: #e89518;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.mi-div-negro {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: black;
+  border: 1px solid rgb(172, 157, 157);
+  border-radius: 0;
+}
+
+.card-footer-flex {
+  margin-top: auto;
+  padding: 20px;
+}
+
+.card-top-bar {
+  background-color: #c9952f;  
+  padding: 0.4rem 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+
